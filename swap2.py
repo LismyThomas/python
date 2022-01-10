@@ -1,0 +1,7 @@
+x=input("enter variable x:")
+y=input("enter variable y:")
+sum=int(x)+int(y)
+x=int(sum)-int(x)
+print("after swapping x:",x)
+y=int(sum)-int(y)
+print("after swapping y:",y)
